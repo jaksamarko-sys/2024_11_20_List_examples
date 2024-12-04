@@ -56,3 +56,7 @@ print("Minden szám negatív: ", all_negative)
 minden_negativ = all(szam < 0 for szam in numbers)
 print(minden_negativ)
 
+# 5. Van-e a sorozatban olyan szám, amelyik 1 és 10 közé esik?
+
+number_between_1_10 = any(1 <= num <= 10 for num in numbers)
+print("5. Van-e szám 1 és 10 között: ", number_between_1_10)
